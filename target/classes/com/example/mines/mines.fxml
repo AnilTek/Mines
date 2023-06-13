@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="scenePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: Black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mines.HelloController">
+   <children>
+      <VBox layoutX="109.0" prefHeight="600.0" prefWidth="100.0">
+         <children>
+            <Button fx:id="bir" disable="true" mnemonicParsing="false" onAction="#Button" prefHeight="120.0" prefWidth="104.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="alti" disable="true" mnemonicParsing="false" onAction="#Button6" prefHeight="120.0" prefWidth="109.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="onbir" disable="true" mnemonicParsing="false" onAction="#Button11" prefHeight="120.0" prefWidth="105.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="onalti" disable="true" mnemonicParsing="false" onAction="#Button16" prefHeight="120.0" prefWidth="103.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="yirmibir" disable="true" mnemonicParsing="false" onAction="#Button21" prefHeight="120.0" prefWidth="102.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="209.0" prefHeight="600.0" prefWidth="100.0">
+         <children>
+            <Button fx:id="iki" disable="true" mnemonicParsing="false" onAction="#Button2" prefHeight="120.0" prefWidth="104.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="yedi" disable="true" mnemonicParsing="false" onAction="#Button7" prefHeight="120.0" prefWidth="107.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="oniki" disable="true" mnemonicParsing="false" onAction="#Button12" prefHeight="120.0" prefWidth="107.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="onyedi" disable="true" mnemonicParsing="false" onAction="#Button17" prefHeight="120.0" prefWidth="108.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="yirmiiki" disable="true" mnemonicParsing="false" onAction="#Button22" prefHeight="120.0" prefWidth="105.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="309.0" prefHeight="600.0" prefWidth="100.0">
+         <children>
+            <Button fx:id="uc" disable="true" mnemonicParsing="false" onAction="#Button3" prefHeight="120.0" prefWidth="106.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="sekiz" disable="true" mnemonicParsing="false" onAction="#Button8" prefHeight="120.0" prefWidth="107.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="onuc" disable="true" mnemonicParsing="false" onAction="#Button13" prefHeight="120.0" prefWidth="105.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="onsekiz" disable="true" mnemonicParsing="false" onAction="#Button18" prefHeight="120.0" prefWidth="102.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="yirmiuc" disable="true" mnemonicParsing="false" onAction="#Button23" prefHeight="120.0" prefWidth="105.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="409.0" prefHeight="600.0" prefWidth="100.0">
+         <children>
+            <Button fx:id="dort" disable="true" mnemonicParsing="false" onAction="#Button4" prefHeight="120.0" prefWidth="102.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="dokuz" disable="true" mnemonicParsing="false" onAction="#Button9" prefHeight="120.0" prefWidth="105.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="ondort" disable="true" mnemonicParsing="false" onAction="#Button14" prefHeight="120.0" prefWidth="109.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="ondokuz" disable="true" mnemonicParsing="false" onAction="#Button19" prefHeight="120.0" prefWidth="106.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="yirmidort" disable="true" mnemonicParsing="false" onAction="#Button24" prefHeight="120.0" prefWidth="106.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="509.0" prefHeight="600.0" prefWidth="91.0">
+         <children>
+            <Button fx:id="bes" disable="true" mnemonicParsing="false" onAction="#Button5" prefHeight="120.0" prefWidth="87.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="on" disable="true" mnemonicParsing="false" onAction="#Button10" prefHeight="120.0" prefWidth="99.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="onbes" disable="true" mnemonicParsing="false" onAction="#Button15" prefHeight="120.0" prefWidth="96.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="yirmi" disable="true" mnemonicParsing="false" onAction="#Button20" prefHeight="120.0" prefWidth="98.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+            <Button fx:id="yirmibes" disable="true" mnemonicParsing="false" onAction="#Button25" prefHeight="120.0" prefWidth="89.0" style="-fx-background-color: trans;" text="?" textFill="#00ff53">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <Button fx:id="randombutton" disable="true" layoutX="1.0" layoutY="85.0" mnemonicParsing="false" onAction="#RandomMineSelector" prefHeight="39.0" prefWidth="100.0" style="-fx-background-color: trans;" text="BET" textFill="#00ff53">
+         <font>
+            <Font name="Times New Roman" size="30.0" />
+         </font>
+      </Button>
+      <Button id="cashoutmoney" fx:id="cashoutmoney" layoutX="1.0" layoutY="198.0" mnemonicParsing="false" onAction="#CashOut" prefHeight="61.0" prefWidth="100.0" style="-fx-background-color: trans;" text="\$" textFill="#00ff53" />
+      <Text id="balance1" fx:id="balance1" fill="#00ff53" layoutX="7.0" layoutY="40.0" stroke="#0eff5a" strokeType="OUTSIDE" strokeWidth="0.0" text=" Balance: 1000$" wrappingWidth="100.0" />
+      <TextField id="betfield" fx:id="betfield" layoutX="1.0" layoutY="56.0" prefHeight="29.0" prefWidth="100.0" promptText="Bet Here" style="-fx-background-color: trans; -fx-border-color: #00ff53;" />
+      <Text id="cashmulti" fx:id="cashmulti" fill="#00ff53" layoutX="2.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cash Out:" wrappingWidth="100.0" />
+      <Button fx:id="midbutton" layoutX="2.0" layoutY="270.0" mnemonicParsing="false" onAction="#MidRiskMines" prefHeight="60.0" prefWidth="100.0" style="-fx-background-color: trans;" text="Mid-Risk 6" textFill="#00ff53" />
+      <Button fx:id="highbutton" layoutX="1.0" layoutY="340.0" mnemonicParsing="false" onAction="#HighRiskMines" prefHeight="60.0" prefWidth="100.0" style="-fx-background-color: trans;" text="High-Risk 9" textFill="#00ff53" />
+      <Button fx:id="topbutton" layoutX="2.0" layoutY="419.0" mnemonicParsing="false" onAction="#TopRiskMines" prefHeight="60.0" prefWidth="100.0" style="-fx-background-color: trans;" text="Top-Risk 12" textFill="#00ff53" />
+      <Button fx:id="lowbutton" layoutX="1.0" layoutY="495.0" mnemonicParsing="false" onAction="#LowRiskMines" prefHeight="54.0" prefWidth="100.0" style="-fx-background-color: trans;" text="Low-Risk 3" textFill="#00ff53" />
+   </children>
+</AnchorPane>
